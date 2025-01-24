@@ -34,6 +34,7 @@ export class ProductsService extends PrismaClient implements OnModuleInit {
       data: await this.product.findMany({
         skip: (page - 1) * limit,
         take: limit,
+        where: { available: true },
       }),
       metadata: {
         total: totalPages,
