@@ -4,5 +4,5 @@
 1. Clonar repositorio
 2. Instalar dependencias
 3. Crear archivo `.env` baso en el `.env.template`
-4. Ejecutar migracion de prisma `npx prima migrate dev`
+4. Ejecutar migracion de prisma `npx prisma migrate dev`
 5. Ejecutar `npm run start:dev`
